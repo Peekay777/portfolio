@@ -1,0 +1,93 @@
+/*
+* {
+	outline: 1px solid pink;
+}
+*/
+
+html, body {
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#wrapper {
+	min-width: 600px;	
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1000;
+	background: rgba(230,230,230,0.8);
+}
+
+h1 {
+	display: inline-block;
+	font-size: 30px;
+	margin: 5px 20px;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+nav div {
+	display: inline;	
+}
+
+#about {
+	position: relative;
+	background: url(../images/me_san.JPG);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100%;
+    min-width: 100%;
+	height: 600px;
+}
+
+#about > div {
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	width: 40%;
+}
+
+#projects {
+	height: 100%;
+}
+
+#projects > div{
+	display: inline-block;
+	height: 25%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+#project1 {
+	background-image: url(/images/worldcup.jpg);
+}
+
+@media (min-width: 600px) {
+	#projects > div{
+		width: 49%;
+	}
+}
+
+@media (min-width: 900px) {
+	#projects > div{
+		width: 33%;
+	}
+}
+
+@media (min-width: 1200px) {
+	#projects > div{
+		width: 24%;
+	}
+}
