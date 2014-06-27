@@ -1,0 +1,139 @@
+/*
+* {
+	outline: 1px solid pink;
+}
+*/
+
+html, body {
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+#wrapper {
+	min-width: 600px;	
+}
+
+.clickable {
+	-o-transition: 0.5s; 
+	-ms-transition: 0.5s; 
+	-moz-transition: 0.5s; 
+	-webkit-transition: 0.5s; 
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1000;
+	background: rgba(230,230,230,0.8);
+}
+
+h1 {
+	display: inline-block;
+	font-size: 30px;
+	margin: 10px 20px;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+nav div {
+	display: inline;	
+}
+
+#about {
+	position: relative;
+	background: url(../images/me_san.JPG);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100%;
+    min-width: 100%;
+	height: 600px;
+}
+
+#about > div {
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	width: 40%;
+}
+
+#projects {
+	height: 100%;
+	margin: 0px;
+}
+
+h3 {
+	font-size: 30px;
+	padding: 10px 0px;
+	text-align: center;
+	background: rgba(230,230,230,0.8);
+}
+
+#projects > div {
+	display: inline-block;
+	height: 50%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+#project1 { background-image: url(../images/worldcup.jpg); }
+#project2 { background-image: url(../images/worldcup.jpg); }
+#project3 { background-image: url(../images/worldcup.jpg); }
+#project4 { background-image: url(../images/worldcup.jpg); }
+#project5 { background-image: url(../images/worldcup.jpg); }
+#project6 { background-image: url(../images/worldcup.jpg); }
+#project7 { background-image: url(../images/worldcup.jpg); }
+#project8 { background-image: url(../images/worldcup.jpg); }
+
+.project-inner {
+	display: none;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	width:100%;
+}
+
+.project-inner p{
+	position: relative;
+	top: 30%;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+@media (min-width: 600px) {
+	#projects > div {
+		width: 50%;
+	}
+}
+
+@media (min-width: 900px) {
+	#projects > div {
+		width: 33.3%;
+	}
+	
+	#project7, #project8 {
+		width: 50%;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	#projects > div {
+		width: 25%;
+	}
+}
