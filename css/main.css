@@ -11,6 +11,10 @@ html, body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.clickable {
+	cursor: pointer;	
+}
+
 header {
 	height: 10%;
 }
@@ -20,6 +24,7 @@ h1 {
 	font-size: 4vh;
 	margin-left: 0.5vw;
 	margin-top: 0.5vh;
+	color: #162B51;
 }
 
 nav {
@@ -33,6 +38,7 @@ nav div {
 }
 
 #projects {
+	display: block;
 	font-size: 0;
 	width: 100%;
 }
@@ -56,10 +62,6 @@ nav div {
 #p7-img { background-image: url(../images/worldcup.jpg); }
 #p8-img { background-image: url(../images/worldcup.jpg); }
 
-#project-details {
-	display: none;
-}
-
 .p-inner {
 	display: none;
 	position: relative;
@@ -75,4 +77,64 @@ nav div {
 	text-align: center;
 	color: #fff;
 	font-weight: bold;
+}
+
+#project-details {
+	display: none;
+	position: relative;
+}
+
+.project-details-container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	font-size: 0;
+	width: 80%;
+	height: 300px;
+	margin: 10% auto;
+}
+
+.project-details-container > div {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.back {
+	background-image: url(../images/512px-Chevron_left_font_awesome.svg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 10%;
+	height: 100%;
+}
+
+.back:hover {
+	zoom: 110%;
+}
+
+.project-details-description {
+	width: 50%;	
+	vertical-align: top;
+}
+
+.project-details-description-head {
+	font-size: 0;
+}
+
+.project-details-description-head h2 {
+	display: inline-block;
+	font-size: 2vh;
+}
+
+.project-details-description-head a {
+	display: inline-block;
+}
+
+.project-details-screeny {
+	width: 40%;
+	height: 100%;
+}
+
+.project-details-screeny img {
+	height: 100%;
 }

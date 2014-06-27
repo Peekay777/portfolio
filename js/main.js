@@ -5,13 +5,22 @@ $(document).ready(function() {
 	
 	
 	$(".project").mouseover(function () {
-		$(this).children(".p-inner").show();
-		//$(this).children(".p-inner").css("background", "rgba(0,0,0,0.7)");
+		$(this).children(".p-inner").fadeIn();
 	})
 	.mouseleave(function () {
-		$(this).children(".p-inner").hide();
+		$(this).children(".p-inner").fadeOut(200);
+	})
+	.mousedown(function() {
+		$(this).parent().fadeOut(600);
+		$("#project-details").fadeIn(600);
 	});
 	
+	
+	
+	$(".back").mousedown(function() {
+		$("#project-details").fadeOut(600);
+		$("#projects").fadeIn(600);
+	});
 });
 
 //resizes elements
