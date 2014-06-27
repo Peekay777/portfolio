@@ -7,40 +7,67 @@
 html, body {
 	height: 100%;
 	min-width: 600px;
-	min-height: 100px;font-family: "Helvetica Neue", Helvetica, sans-serif;
+	min-height: 100px;
+	font-family: 'HelveticaNeueW01-65Medi', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
+#wrapperHead {
+	max-width: 1200px;
+	margin: auto;
+}
+
 .clickable {
-	cursor: pointer;	
+	cursor: pointer;
+}
+
+.clickable:hover {
+	opacity: 0.7;
 }
 
 header {
-	height: 10%;
+	background-color: #eee;
+	border-bottom: 2px solid #045FB4;
 }
 
 h1 {
 	display: inline-block;
-	font-size: 4vh;
-	margin-left: 0.5vw;
-	margin-top: 0.5vh;
-	color: #162B51;
+	margin: 5px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: -0.02em;
+	color: #045FB4;
 }
 
 nav {
 	display: inline-block;
 	float: right;
 	font-size: 0;
+	margin-right: 5px;
+	height: 100%;
 }
 
 nav div {
-	display: inline;	
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: 0px 2px;
+	height: 50px;
+	width: 46px;
 }
+
+.linkedin { background-image: url(../images/linkedin.png); }
+.email { background-image: url(../images/email.png); }
+.twitter { background-image: url(../images/twitter.png); }
+.github { background-image: url(../images/github.png); }
 
 #projects {
 	display: block;
 	font-size: 0;
 	width: 100%;
+	max-width: 1200px;
+	margin: auto;
 }
 
 #projects > div {
@@ -67,6 +94,7 @@ nav div {
 	position: relative;
 	background: rgba(0,0,0,0.6);
 	height: 100%;
+	border-radius: 5px;
 }
 
 .p-inner p {
@@ -89,7 +117,7 @@ nav div {
 	left: 0;
 	right: 0;
 	font-size: 0;
-	width: 80%;
+	width: 95%;
 	height: 300px;
 	margin: 10% auto;
 }
@@ -97,24 +125,22 @@ nav div {
 .project-details-container > div {
 	display: inline-block;
 	font-size: 16px;
+	height: 100%;
+	color: #045FB4
 }
 
 .back {
-	background-image: url(../images/512px-Chevron_left_font_awesome.svg.png);
+	background-image: url(../images/Chevron_left_blue.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	width: 10%;
-	height: 100%;
-}
-
-.back:hover {
-	zoom: 110%;
+	width: 5%;
 }
 
 .project-details-description {
-	width: 50%;	
+	width: 60%;
 	vertical-align: top;
+	padding: 1%;
 }
 
 .project-details-description-head {
@@ -123,18 +149,34 @@ nav div {
 
 .project-details-description-head h2 {
 	display: inline-block;
-	font-size: 2vh;
+	margin-right: 5px;
+	font-size: 24px;
+	font-weight: bold;
 }
 
-.project-details-description-head a {
+.project-details-description p {
+	margin-bottom: 2px;
+}
+
+.github_p {
 	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: bottom;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../images/github.png);	
+}
+
+.skills {
+	font-style: italic;	
 }
 
 .project-details-screeny {
-	width: 40%;
-	height: 100%;
-}
-
-.project-details-screeny img {
-	height: 100%;
+	width: 33%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-image: url(../images/worldcupscreeny.jpg);
 }

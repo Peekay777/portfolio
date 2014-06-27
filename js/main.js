@@ -25,6 +25,11 @@ $(document).ready(function() {
 
 //resizes elements
 var onResize = function () {
-	$("#projects").css("height", $(window).height() * 0.95);
-	$("header").css("height", $(window).height() * 0.05);
+	var winHieght = $(window).height();
+	
+	if (winHieght > 300) {
+		$("#projects").css("height", winHieght-52);
+		//$("header").css("height", winHieght * 0.05);
+		//$("nav div").css("width", winHieght * 0.05);
+	}
 }
