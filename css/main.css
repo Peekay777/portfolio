@@ -39,6 +39,16 @@ h1 {
 	color: #045FB4;
 }
 
+a:visited {
+	color: #045FB4;
+	text-decoration: none;
+}
+
+a:link {
+	color: #045FB4;
+	text-decoration: none;
+}
+
 nav {
 	display: inline-block;
 	float: right;
@@ -47,7 +57,7 @@ nav {
 	height: 100%;
 }
 
-nav div {
+nav a {
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -81,13 +91,13 @@ nav div {
 }
 
 #p1-img { background-image: url(../images/worldcup.jpg); }
-#p2-img { background-image: url(../images/worldcup.jpg); }
-#p3-img { background-image: url(../images/worldcup.jpg); }
-#p4-img { background-image: url(../images/worldcup.jpg); }
-#p5-img { background-image: url(../images/worldcup.jpg); }
-#p6-img { background-image: url(../images/worldcup.jpg); }
-#p7-img { background-image: url(../images/worldcup.jpg); }
-#p8-img { background-image: url(../images/worldcup.jpg); }
+#p2-img { background-image: url(../images/architechture.jpg); }
+#p3-img { background-image: url(../images/quizapp.png); }
+#p4-img { background-image: url(../images/guessinggame.png); }
+#p5-img { background-image: url(../images/shoppinglist.png); }
+#p6-img { background-image: url(../images/stackapi.png); }
+#p7-img { background-image: url(../images/streetfighter.png); }
+#p8-img { background-image: url(../images/google.png); }
 
 .p-inner {
 	display: none;
@@ -116,6 +126,7 @@ nav div {
 	position: absolute;
 	left: 0;
 	right: 0;
+	max-width: 1200px;
 	font-size: 0;
 	width: 95%;
 	height: 300px;
@@ -138,24 +149,29 @@ nav div {
 }
 
 .project-details-description {
-	width: 60%;
+	width: 55%;
 	vertical-align: top;
 	padding: 1%;
 }
 
+.project-details-description a:link {
+	font-weight: bold;
+}
+
 .project-details-description-head {
 	font-size: 0;
+	margin-bottom: 10px;
 }
 
 .project-details-description-head h2 {
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 10px;
 	font-size: 24px;
 	font-weight: bold;
 }
 
 .project-details-description p {
-	margin-bottom: 2px;
+	margin-bottom: 8px;
 }
 
 .github_p {
@@ -170,11 +186,14 @@ nav div {
 }
 
 .skills {
-	font-style: italic;	
+	font-style: italic;
+	margin-bottom: 10px;
 }
 
 .project-details-screeny {
-	width: 33%;
+	display: inline-block;
+	width: 38%;
+	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
