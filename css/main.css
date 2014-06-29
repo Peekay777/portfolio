@@ -199,3 +199,7 @@ nav a {
 	background-size: contain;
 	background-image: url(../images/worldcupscreeny.jpg);
 }
+
+.template {
+	display: none;
+}
