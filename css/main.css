@@ -78,6 +78,8 @@ nav a {
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
+	-webkit-animation-duration: 600ms;
+	-webkit-animation-delay: 0;
 }
 
 #projects > div {
@@ -120,6 +122,8 @@ nav a {
 #project-details {
 	display: none;
 	position: relative;
+	-webkit-animation-duration: 400ms;
+	-webkit-animation-delay: 0;
 }
 
 .project-details-container {
