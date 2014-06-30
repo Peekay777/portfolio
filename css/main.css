@@ -185,12 +185,12 @@ nav a {
 	background-image: url(../images/github.png);	
 }
 
-.skills {
+#skills {
 	font-style: italic;
 	margin-bottom: 10px;
 }
 
-.project-details-screeny {
+#project-details-screeny {
 	display: inline-block;
 	width: 38%;
 	height: 100%;
@@ -201,5 +201,9 @@ nav a {
 }
 
 .template {
+	display: none;
+}
+
+h3 {
 	display: none;
 }
