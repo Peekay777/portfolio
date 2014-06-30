@@ -1,9 +1,11 @@
+//constant for end of amination check
 var animEnd = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
 
 $(document).ready(function() {
 	onResize();	//initialises
 	$(window).resize(onResize); //on browser size change
 	
+	animate("#projects", "slideInLeft");
 	
 	// rollover projects
 	$(".project").mouseover(function () {
@@ -17,6 +19,7 @@ $(document).ready(function() {
 		var projectDetails = $("#project-details");
 		var details = $(".template .project-details-container").clone();
 		
+		//assign values to template
 		details.find("h2").text(projectName);
 		details.find("#skills").text(projDetailCollection[0][projectName][0].skills);
 		details.find("#situation").text(projDetailCollection[0][projectName][0].situation);
@@ -27,6 +30,7 @@ $(document).ready(function() {
 		details.find("#project-details-screeny").css("background-image", "url(images/" + projDetailCollection[0][projectName][0].screeny + ")");
 		details.find("#gitlink").attr("href", projDetailCollection[0][projectName][0].gitlink);
 		
+		//apply template
 		projectDetails.empty();
 		projectDetails.append(details);
 		
@@ -58,9 +62,16 @@ var onResize = function () {
 	
 	if (winHieght > 300) {
 		$("#projects").css("height", winHieght-52);
-		//$("header").css("height", winHieght * 0.05);
-		//$("nav div").css("width", winHieght * 0.05);
 	}
+}
+
+//apply animated class and then removed
+var animate = function (id, animType) {
+	var animClass = "animated " + animType;
+	
+	$(id).addClass(animClass).one(animEnd, function() {
+		$(this).removeClass(animClass);
+	});
 }
 
 var projDetailCollection = [{
