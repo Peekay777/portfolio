@@ -97,15 +97,6 @@ nav a {
 	background-size: cover;
 }
 
-#p1-img { background-image: url(../images/worldcup.jpg); }
-#p2-img { background-image: url(../images/architechture.jpg); }
-#p3-img { background-image: url(../images/quizapp.png); }
-#p4-img { background-image: url(../images/guessinggame.png); }
-#p5-img { background-image: url(../images/shoppinglist.png); }
-#p6-img { background-image: url(../images/stackapi.png); }
-#p7-img { background-image: url(../images/streetfighter.png); }
-#p8-img { background-image: url(../images/google.png); }
-
 .p-inner {
 	display: none;
 	position: relative;
