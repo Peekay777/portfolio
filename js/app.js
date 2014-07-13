@@ -3,7 +3,8 @@
 	/*global angular */
 	var projectsApp = angular.module('projectsApp', [
 		'ngRoute',
-		'projectControllers'
+		'projectControllers',
+		'projectDirectives'
 	]);
 	
 	projectsApp.config(['$routeProvider',
@@ -13,10 +14,10 @@
 					templateUrl: 'partials/projectList.html',
 					controller: 'ProjectListCtrl'
 				})
-				/*.when('/phones/:phoneId', {
-					templateUrl: 'partials/phone-detail.html',
-					controller: 'PhoneDetailCtrl'
-				}).*/
+				.when('/:pid', {
+					templateUrl: 'partials/projectDetail.html',
+					controller: 'ProjectDetailCtrl'
+				})
 				.otherwise({
 					redirectTo: '/'
 				});

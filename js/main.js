@@ -2,13 +2,10 @@
 var animEnd = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
 
 $(document).ready(function() {
+	onResize();
 	$(window).resize(onResize); //on browser size change
 	
-	$("#projects").on("mouseover", ".project", function() {
-		$(this).children(".p-inner").fadeIn();
-	}).on("mouseleave", ".project", function() {
-		$(this).children(".p-inner").fadeOut(200);
-	}).on("click", ".project", function() {
+	$("#projects").on("click", ".project", function() {
 		var projectName = $(this).find("p").text();
 		var projectDetails = $("#project-details");
 		var details = $(".template .project-details-container").clone();

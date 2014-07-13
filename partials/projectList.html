@@ -1,7 +1,10 @@
-<section id="projects" data-ng-controller="ProjectListCtrl">
+<section id="projects">
 	<h3>Projects</h3>
-	<div data-ng-repeat="project in projectList | limitTo: 8" class="project clickable" data-ng-style="{'background-image':'url(images/{{project.image}})'}" data-pid="{{project.id}}">
-		<div class="p-inner">
+	<div data-ng-repeat="project in projectList | limitTo: 8" 
+	class="project clickable" 
+	data-ng-style="{'background-image':'url(images/{{project.image}})'}" 
+	data-pid="{{project.id}}">
+		<div class="p-inner" ng-click="go('/' + project.id)">
 			<p>{{project.name}}</p>
 		</div>
 	</div>

@@ -1,0 +1,11 @@
+{
+	"name" : "Quiz App",
+	"skills" : "HTML, CSS, JavaScript, jQuery, OO Programming",
+	"situation" : "A quiz using JavaScript object oriented programming to create a multi choice answer game.",
+	"task" : "The quiz was on movies and there stars. The theme was based on the popular IMDB.com that synonymous with the genre. The idea was that a user would instantly recognise the general layout and know that the quiz was about movies. The functionality was designed to have the player and questions as objects with methods to show questions, keep score and progress in the game.",
+	"action" : "The quiz was designed to allow the expansion to more than the 5 question and not to be constrained by the limitation of the prototype. The player progress and score is available on each page and feedback on answers correctness. Also an extra requirement was to build responsive design into the app to allow viewing in different browser resolutions.",
+	"result" : "The project captures the thematic well and includes the functionality required to play a quiz game.",
+	"gitlink" : "https://github.com/Peekay777/quizapp",
+	"link" : "http://peekay777.github.io/quizapp/",
+	"screeny" : "quizappscreeny.png"
+}

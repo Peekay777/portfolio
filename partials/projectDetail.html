@@ -1,0 +1,18 @@
+<section id="project-details">
+	<h3>Project details</h3>
+	<div class="project-details-container">
+		<div class="clickable back"  ng-click="go('/')"></div>
+		<div class="project-details-description">
+			<div class="project-details-description-head">
+				<h2>{{project.name}}</h2>
+				<a data-ng-href="{{project.gitlink}}" id ="gitlink" class="clickable github_p"></a>
+			</div>
+			<p id="skills">{{project.skills}}</p>
+			<p id="situation">{{project.situation}}</p>
+			<p id="task">{{project.task}}</p>
+			<p id="action">{{project.action}}</p>
+			<p id="result">{{project.result}}</p>
+		</div>
+		<a data-ng-href="{{project.link}}" id="project-details-screeny" class="clickable" ng-style="{'background-image': 'url(images/' + project.screeny + ')'}"></a>
+	</div>
+</section>

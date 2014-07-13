@@ -1,0 +1,11 @@
+{
+	"name" : "Shopping List",
+	"skills" : "HTML, CSS, jQuery",
+	"situation" : "Build a shopping list that will allow users to enter, check and remove items from a list.",
+	"task" : "The design needed to consider the functionality as a priority and the visuals secondary. Once every functional element had been added a theme could be added to suggest that the list was for shopping (although the app could do other types of lists).",
+	"action" : "The design was wireframed with a non-interactive version created initially. The JavaScript elements added last.",
+	"result" : "A complete shopping list application with all the functionality that would be expected.",
+	"gitlink" : "https://github.com/Peekay777/shoppinglist",
+	"link" : "http://peekay777.github.io/shoppinglist/",
+	"screeny" : "shoppinglistscreeny.png"
+}

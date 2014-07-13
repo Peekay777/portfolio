@@ -1,0 +1,11 @@
+{
+	"name" : "Street Fighter",
+	"skills" : "JavaScript, jQuery",
+	"situation" : "Build an interactive web page inspired by the arcade classic Street Fighter.",
+	"task" : "Learn the jQuery API through the documentation and use to manipulate the DOM, events and effects to construct the Street Fighter page.",
+	"action" : "Implement the different functionality including the Pose for the character.",
+	"result" : "A fun example of jQuery in action.",
+	"gitlink" : "https://github.com/Peekay777/jquery-streetfighter",
+	"link" : "http://peekay777.github.io/jquery-streetfighter/main.html",
+	"screeny" : "streetfighterscreeny.png"
+}

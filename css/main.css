@@ -98,11 +98,17 @@ nav a {
 }
 
 .p-inner {
-	display: none;
 	position: relative;
 	background: rgba(0,0,0,0.6);
 	height: 100%;
 	border-radius: 5px;
+	opacity: 0;
+	-webkit-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+}
+
+.p-inner:hover  {
+	opacity: 1;
 }
 
 .p-inner p {
@@ -116,7 +122,6 @@ nav a {
 }
 
 #project-details {
-	display: none;
 	position: relative;
 	-webkit-animation-duration: 400ms;
 	-webkit-animation-delay: 0;
@@ -197,7 +202,6 @@ nav a {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	background-image: url(../images/worldcupscreeny.jpg);
 }
 
 .template {

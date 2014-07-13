@@ -1,0 +1,11 @@
+{
+	"name" : "Google Clone",
+	"skills" : "HTML, CSS",
+	"situation" : "An exercise to clone the Google home page.",
+	"task" : "This project required an initial break down of the page into its component parts. Examine each element for behaviour to mimic. Also take note on how the page reacts when the browser window changes shape.",
+	"action" : "Completed the exercise with HTML and CSS.",
+	"result" : "The page looks and behaves like the original except for the actual functionality.",
+	"gitlink" : "https://github.com/Peekay777/google/tree/html5",
+	"link" : "http://peekay777.github.io/google/",
+	"screeny" : "googlescreeny.png"
+}

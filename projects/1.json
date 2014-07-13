@@ -1,0 +1,11 @@
+{
+	"name" : "Small Business",
+	"skills" : "HTML, CSS",
+	"situation" : "A static prototype landing page for a fictitious small business.  Application of key design concepts for user experience (UX) and along with it, user interfaces (UI's). ",
+	"task" : "Primary approach was to understanding the interest of an architecture firm to their clients and how the client base is assembled. Using this information apply them to the UX design to capture the client’s interest. The client’s should instantly know they are viewing an architecture firm web site, see examples of their work and a short description about the business.",
+	"action" : "The project was initial sketched and then wireframe; elements of the designed were discussed and revised before prototyping. The project went through a few iterations until the final design.",
+	"result" : "The result presents a bold and attractive impression for prospective clients.",
+	"gitlink" : "https://github.com/Peekay777/smallbusiness",
+	"link" : "http://peekay777.github.io/smallbusiness/",
+	"screeny" : "smallbusinessscreeny.png"
+}

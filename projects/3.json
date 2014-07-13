@@ -1,0 +1,11 @@
+{
+	"name" : "Guessing Game",
+	"skills" : "JavaScript, jQuery",
+	"situation" : "Complete the logic for a predesigned guessing game. The HTML and CSS are already completed with the assignment simulating what it is like to collaboratively work on a project that is in progress.",
+	"task" : "The game requires certain functionality be included and incorporated into the design. Elements like the number of guesses, list of past guesses and feedback on guess.",
+	"action" : "A breakdown of the logic into steps was the first step. The guess ranges required adjustment to for feedback, like Hot, needed to be amended to be a short range to allow the user better response.",
+	"result" : "A challenge to work off other peoples code but a necessary skill.",
+	"gitlink" : "https://github.com/Peekay777/hot-or-cold",
+	"link" : "http://peekay777.github.io/hot-or-cold/",
+	"screeny" : "hotcoldscreeny.png"
+}

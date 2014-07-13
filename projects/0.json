@@ -1,0 +1,11 @@
+{
+	"name" : "World Cup API",
+	"skills" : "HTML, CSS, JavaScript, jQuery, AJAX, JSON",
+	"situation" : "Find a third-party API to provide an interesting and desirable user experience. The app must respond to the user and return results of AJAX calls.",
+	"task" : "The API needed to be contemporary, appealing and a topic that I had knowledge of. The World Cup API, supplied by Kimono Labs, was precisely the interface required for my brief. Designed a user experience by researching the RESTful API to inspire world cup fever and provide useful statistics.",
+	"action" : "Followed the MVP (Minimum Viable Product) development project lifecycle; sketched a wireframe, coded up a static version of the prototype, and then added the interactive behaviour.",
+	"result" : "This project was showcased by Kimono as an example for their World Cup API.",
+	"gitlink" : "https://github.com/Peekay777/worldcupapihack",
+	"link" : "http://peekay777.github.io/worldcupapihack/",
+	"screeny" : "worldcupscreeny.jpg"
+}
