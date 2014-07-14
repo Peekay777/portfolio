@@ -3,6 +3,7 @@
 	/*global angular */
 	var projectsApp = angular.module('projectsApp', [
 		'ngRoute',
+		'ngAnimate',
 		'projectControllers',
 		'projectDirectives'
 	]);

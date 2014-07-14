@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Pany Koutsios</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate-ng.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.ico">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
@@ -25,7 +25,9 @@
 		</div>
 	</header>
 	
-	<div data-ng-view></div>
+	<div class="view-container">
+		<div class="animated view-frame" data-ng-view></div>
+	</div>
 	
 	<!-- outdated browser script and html -->
 	<div id="outdated">
@@ -58,7 +60,8 @@
 	<!-- outdated browser END -->
 	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.18/angular-route.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-route.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-animate.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/controllers.js"></script>
 	<script type="text/javascript" src="js/directives.js"></script>
